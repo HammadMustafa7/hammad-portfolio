@@ -1,4 +1,3 @@
-import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import Layout from './components/Layout.jsx';
 import Home from './components/Home/Home.jsx';
@@ -21,7 +20,7 @@ const router = createBrowserRouter(
 );
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+  
     <RouterProvider router={router} />
-  </StrictMode>
+  
 );
