@@ -8,7 +8,7 @@ function Project() {
       "description": "A modern and responsive portfolio website built using React and styled with Tailwind CSS. This project showcases my skills in creating visually appealing and highly functional web applications. It includes interactive UI components, smooth transitions, and a clean design optimized for all devices.",
       "image": portfolio,
       "technologies": ["React", "Tailwind CSS"],
-      "source": "https://github.com/"
+      "source": "https://github.com/HammadMustafa7/hammad-portfolio"
     }
     
     
