@@ -1,4 +1,5 @@
 import profile from "../../assets/profilepic.jpg";
+import cv from '../../assets/hammadresume.pdf'
 const AboutMe = () => {
   return (
     <section id="about" className="min-h-screen font-mono bg-gradient-to-r from-blue-900 via-indigo-900 to-blue-950 text-gray-100 py-16 px-8">
@@ -52,11 +53,12 @@ const AboutMe = () => {
               aria-label="List of Skills"
             >
               {[
+                "HTML/CSS",
                 "JavaScript",
                 "React.js",
-                "Node.js",
+                "Node.js(Basic)",
                 "Tailwind CSS",
-                "MongoDB",
+                "MongoDB(Basic)",
                 "Express.js"
               ].map((skill, index) => (
                 <li
@@ -74,7 +76,7 @@ const AboutMe = () => {
           {/* Call to Action */}
           <div className="mt-8 flex justify-center lg:justify-start">
             <a
-              href="/resume.pdf"
+              href={cv}
               download
               className="bg-yellow-400 text-blue-900  font-bold py-3 px-6 rounded-sm shadow-md hover:bg-blue-900 hover:text-yellow-300 transition-transform duration-300 hover:scale-105 hover:border-yellow-300 hover:border-2"
             >
